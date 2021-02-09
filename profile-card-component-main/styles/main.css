@@ -1,0 +1,93 @@
+ body {
+   font-family: 'Kumbh Sans', sans-serif;
+   font-size: 18px;
+   background-color: hsl(185, 75%, 39%);
+ }
+
+ .attribution {
+   font-size: 11px;
+   text-align: center;
+ }
+
+ .attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+
+ .landing-page {
+   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+   height: 100vh;
+   background-position: -167px -271px, 722px 331px;
+   background-repeat: no-repeat;
+   background-size: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .inner-div {
+   background-color: gainsboro;
+   width: 25rem;
+   height: 400px;
+   margin: auto;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+ }
+
+ .img-bg {
+   background-image: url(../images/bg-pattern-card.svg);
+   background-size: cover;
+   height: 30%;
+ }
+
+ .text-bg {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ .victor {
+   text-align: center;
+   padding: 45px;
+ }
+
+ .followers {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .followers>div {
+   padding: 17px;
+   font-weight: 700;
+ }
+
+ hr {
+   border: 1px solid #bfbaba;
+   width: 25rem;
+ }
+
+ .vic-img {
+   padding: 5px;
+   position: relative;
+   left: 136px;
+   top: 60px;
+   border-radius: 50%;
+ }
+
+ @media screen and (max-width: 375px) and (max-width: 1440px) {
+   .landing-page {
+     /* background-color: lightgreen; */
+     background-size: 400px;
+     /* display: flex; */
+     /* justify-content: center; */
+     /* align-items: center; */
+     background-position: -231px -243px, 194px 411px;
+     padding: 15px;
+   }
+   .vic-img {
+     top: 67px;
+     left: 96px;
+   }
+ }
